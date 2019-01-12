@@ -10,6 +10,7 @@ intro_paragraph: >-
 
   You can try it out here
   [triktron.com/flappy-bird/](https://triktron.com/flappy-bird/)
+categories: 'projects, blog'
 ---
 Current version suports the basic game and a temerary highscore system.
 
