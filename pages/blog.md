@@ -3,9 +3,9 @@ layout: blog
 title: The Blog
 permalink: /blog
 section: blog
-intro_paragraph: >
-  This is the Blog index page, listing each post with an
-  automatically generated post excerpt. It's a normal Jekyll page but uses
-  the `_layouts/blog.html` template to output the blog's posts after the page
-  content.
+intro_paragraph: |-
+  Intersted in what i've all been doing?
+
+  Look no further!
 ---
+I don't really post much, but when i do. You can find it here.
