@@ -9,5 +9,6 @@ intro_paragraph: >-
 
   i finaly managed to draw a little again, and i decided to finaly make the ref
   sheet for my beloved mouse. hope you all like it.
+categories: sketches blog
 ---
 
