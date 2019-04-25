@@ -7,4 +7,10 @@
     {% include analytics.html %}
   {% endif %}
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% if page.section == "post" %}
+  <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="[c] Anuvia by Ailuranthropy" />
+        <meta name="twitter:description" content="sketch commission for &lt;a href=&quot;/user/anuvia&quot; class=&quot;linkusername&quot;&gt;anuvia&lt;/a&gt; !!" />
+        <meta name="twitter:url" content="http://www.furaffinity.net/view/31317190/" />
+        <meta name="twitter:image" content="http://t.facdn.net/31317190@800-1556212820.jpg" />{% endif %}
 </head>
