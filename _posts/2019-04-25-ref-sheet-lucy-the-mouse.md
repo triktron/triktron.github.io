@@ -11,4 +11,4 @@ intro_paragraph: >-
   sheet for my beloved mouse. hope you all like it.
 categories: sketches blog
 ---
-
+<img src="/assets/img/uploads/img_0110.png" style="width:90%"></img>
