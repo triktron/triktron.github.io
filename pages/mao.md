@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: My bf
 permalink: /mao
 section: mao
