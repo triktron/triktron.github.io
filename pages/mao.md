@@ -2,7 +2,7 @@
 layout: blog
 title: My bf
 permalink: /mao
-section: blog
+section: mao
 intro_paragraph: |-
   For my best bf mao
 ---
