@@ -3,22 +3,14 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html data-current="{{ page.section }}" lang="en">
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <main>
-
-      {{ content }}
-
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{%- include head.html -%}
+<body>
+        {%- include header.html -%}
+        <div class="col-lg-12">
+            {{ content }}
+        </div>
+        {%- include footer.html -%}
+   <script src="{{site.url}}{{site.baseurl}}/assets/js/mode-switcher.js"></script>
+</body>
 </html>
