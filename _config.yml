@@ -3,7 +3,7 @@ subtitle: what am i suposed to say
 description: >- # this means to ignore newlines until "baseurl:"
   Learning new stuff every day
 
-url: "triktron.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
