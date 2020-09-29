@@ -97,6 +97,25 @@ html[data-theme="light"] {
     }
 }
 
+blockquote {
+    border-left: 4px solid rgb(170, 178, 180) !important;
+    background: var(--main-background-color) !important;
+    border-top: 1px solid rgb(170, 178, 180);
+    border-bottom: 1px solid rgb(170, 178, 180);
+    padding: 4px 15px !important;
+    color: var(--text-color1) !important;
+}
+blockquote {
+    margin: 1rem 0px !important;
+}
+
+blockquote > :first-child, li > :first-child {
+    margin-top: 0px !important;
+}
+blockquote > :last-child {
+    margin-bottom: 0px !important;
+}
+
 html,
 html[data-theme="dark"],
 html[data-theme="light"] {
@@ -157,13 +176,6 @@ pre {
     color: #d4d4d4 !important;
 }
 
-blockquote {
-    margin: 2rem 1rem 1rem;
-    padding: 3px;
-    background: var(--main-background-color) !important;
-    border: 1px solid;
-    color: var(--bold-color);
-}
 
 /* Scrollbar */
 
