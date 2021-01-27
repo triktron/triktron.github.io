@@ -1,6 +1,12 @@
 .layoutmasonry {
   grid-gap: 0;
-  column-count: 2
+  column-count: 2;
+  transition: padding 0.2s;
+  cursor: pointer;
+}
+
+.card_container:hover {
+    padding: 5px;
 }
 
 img {
