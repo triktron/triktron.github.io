@@ -4,8 +4,24 @@ title:  "just testing some layouts"
 summary: this is a post testing out typora
 author: tritkron
 date: '2012-05-22 14:35:23 +0530'
-thumbnail: /assets/img/posts/code.jpg
-tags: programing typora markdown
+card: >-
+  <div class="card_container">
+    <div class="card">
+      <div class="optional-header">
+        <div class="thumbnail thumbnail--40x40"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="" width="40" height="40"></div>
+        <div class="primary-title">
+          <div class="title">Title</div>
+          <div class="subhead">Subhead</div>
+        </div>
+      </div>
+      <div class="media media--16-9"> <img src="https://media.pixeltuner.de/wp-content/uploads/2018/06/Shapes-Abstraction-Background-2466799.jpg" alt="" width="640" height="426"> </div>
+      <div class="primary-title">
+        <div class="primary-text">Primary text goes here</div>
+        <div class="secondary-text">Secondary text</div>
+      </div>
+      <div class="supporting-text">Supporting text include text like an article summary or a restaurant description.</div>
+    </div>
+  </div>
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

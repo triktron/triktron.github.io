@@ -1,8 +1,15 @@
 ---
 ---
 
-@charset "utf-8";
 
-@import "devlopr";
+@import "lib/normalize";
+@import "lib/fontawesome";
+@import "lib/devicon";
 
-/* custom css goes below */
+@import 'base';
+@import 'vars';
+@import 'animation';
+@import 'header';
+@import 'about';
+@import 'footer';
+@import 'projects';

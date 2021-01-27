@@ -1,0 +1,24 @@
+<div class="card_container">
+  <div class="card">
+    <div class="media media--16-9">
+      <div class="primary-title">
+        <div class="secondary-text">{{ include.title }}</div>
+        <div class="primary-text">{{ include.subTitle }}</div>
+      </div>
+      <img src="{{ include.banner }}" alt="" width="640" height="426"> </div>
+    <div class="optional-header">
+      {% if include.icon %}
+      <div class="thumbnail thumbnail--40x40"><img src="{{ include.icon }}" alt="" width="40" height="40"></div>
+      {% endif %}
+      {% if include.name %}
+      <div class="primary-title">
+        <div class="title">{{ include.name }}</div>
+        <div class="subhead">{{ include.subName }}</div>
+      </div>
+      {% endif %}
+    </div>
+    {% if include.description %}
+    <div class="supporting-text">{{ include.description }}</div>
+    {% endif %}
+  </div>
+</div>

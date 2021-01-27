@@ -1,95 +1,23 @@
 title: Triktron
-subtitle: what am i suposed to say
-description: >- # this means to ignore newlines until "baseurl:"
-  Learning new stuff every day
-
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-
-urls:
-    - text: About Me
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-
-# Edit these details
-
-author_logo: icon.png
-author: Luca Vanesche
-author_bio: Hi, im triktron. this is my bio
-author_email: "ele.trik@hotmail.com"
-author_location: Belgium
-author_website_url: "https://triktron.com"
-typewrite-text: Learning something new every day!
-
-# social links
-twitter_username: triktron_
-github_username:  triktron
-telegram_username: triktron
-
-# syntax highlighter
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-# Gallery
-defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
-
-# Build settings
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-menus
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+description: Jekyll Theme Minimal Resume
+username: Triktron
+user_description: >-
+  I\'m a nomad Software Engineer, always searching for the next challenge; no
+  task is too scary nor too difficult. Lately I have been immersed in the
+  <b>crypto-world</b> working for Radix, a London based startup trying to create
+  the next massive scalable DLT. I'm one of the two guys behind all the JS
+  related stuff.
+user_title: Student Indie Developer
+email: luca.vanesche@gmail.com
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
+  - package.json
+  - src
+  - node_modules
+  - old
+  - CNAME
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-destination: ./build
+  - LICENSE
+  - package-lock.json
+baseurl: ''
+url: ''

@@ -1,39 +1,18 @@
-
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="icono-hamburger" id="navbar-hamburger"> </span>
-          </button>
-          <a class="navbar-brand" href="/">{{site.title}}</a>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              {% for i in site.urls %}
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="{{ site.url}}{{site.baseurl}}{{ i.url }}"
-                  >{{ i.text }}</a
-                >
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <input
-                class="nav-link switch"
-                id="theme-toggle"
-                onclick="modeSwitcher() "
-                type="checkbox"
-                name="checkbox"
-              />
-            </li>
-          </ul>
-        </nav>
+<div id="particles-js">
+  <div class="header">
+      <h1>
+        <img class="icon" src="assets/favicon.png" alt="">
+        <span class="site-title">{{ site.username }}</span>
+        <span class="site-description">{{ site.user_title }}</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="mailto:luca.vanesche@gmail.com"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/triktron"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="My Sketchfab" target="_blank" href="https://sketchfab.com/triktron"><i class="icon fa fa-cubes" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-links">
+        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
+      </div>
+  </div>
+  <a class="down" href="#layoutmasonry" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
