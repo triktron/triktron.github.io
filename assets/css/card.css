@@ -54,7 +54,7 @@
 		transition: transform 500ms ease;
 	}
 	.card:hover .card-body {
-		transform: translateY(calc(25em - 100%));
+		transform: translateY(calc(50ch - 100%));
 		transition-delay: 500ms;
 	}
 	.card-body>*:not(.card-title, .card-subtitle) {
