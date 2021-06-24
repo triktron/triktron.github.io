@@ -1,0 +1,10 @@
+<div class="card{% if include.wide %} card-w2{% endif %}" style="background-image: url({{ include.img }});">
+  <div class="card-body">
+    {% if include.title %}<h2 class="card-title">{{ include.title }}</h2>{% endif %}
+    {% if include.subtitle %}<h5 class="card-subtitle">{{ include.subtitle }}</h5>{% endif %}
+    {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+    {% for button in include.buttons %}
+      <a href="{{ button.href }}" class="card-button">{{ button.text }}</a>
+    {% endfor %}
+  </div>
+</div>

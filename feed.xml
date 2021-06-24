@@ -1,0 +1,22 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+	<channel>
+		<title>{{ site.title | xml_escape }}</title>
+		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+
+    {% for card in site.cards %}
+    <item>
+      <title>{{ card.title | xml_escape }}</title>
+      <description>{{ card.description | xml_escape }}</description>
+      <category>{{ card.subtitle | xml_escape }}</category>
+      <thumbnail>{{ card.img | remove: "'" }}</thumbnail>
+    </item>
+    {% endfor %}
+	</channel>
+</rss>

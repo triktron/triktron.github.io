@@ -1,0 +1,46 @@
+If you want to play the latest version I compile it from time to time to webgl and post it on my site.
+you can find it here https://triktron.com/Road-Rage/
+
+For the best joystick experience I recommend you to add it to steam as a non steam game, so that steam can map the controller correctly.
+
+The game currently has 2 modes.
+When you press tab you switch between mode 1 and 2.
+
+You start in the first mode which is driving around.
+The camera follows your car and you can drive around using the wasd keys or with a joystick.
+You can press f or a on the joystick to pick up the car behind you
+You can press r to get debug info
+You can press g to restart
+You can zoom in and out on the map with your scroll wheel or with the l and r buttons on your joystick
+You can press f5 to switch in and out of a first person view
+You can use pgup and pgdown to change the chain length
+
+In mode two you can fly around with a free camera.
+You use the mouse to look and the wasd keys to move.
+
+If you press esc while flying then it gives you back your mouse and makes the camera follow a random car.
+You can switch to another random car by pressing space.
+To return to the flying mode you just click on the screen.
+
+I spend a lot of time on the car ai system, checking out how they drive. how they switch lanes and stop at intersections.
+It's not perfect but it's something.
+
+I added a pathfinding system so that when you are carrying a car, and a police car has direct sight on you it will pathfind towards you to catch you.
+I am happy with the minimap system that has a radar feature for showing you the location of mad cops or cash points.
+
+The cop car can switch between patrolling around and chasing you automatically
+
+In the editor itself I made some scripts to help me build the world.
+I have a waypoint manager script that helps me place and connect waypoints
+It can also easily change the road size and fix any misaligned roads to face the correct way.
+
+Another handy script I wrote was a house placer.
+It lets me draw a line, and then fills that line with random houses, it automatically makes them face the correct way and makes sure there aren't any gaps
+
+You can find these tools under the tools tab I made, or in the folder editor.
+
+I also set up unity cloud builds. and made a script that helps me automatically build, and distribute my game.
+I just have to push code to my git repository, and the unity servers will pull it, compile it, and push the compiled game to my server.
+The code for this is part in the upload.sh file, and part on my private server so I wont share it here...
+
+

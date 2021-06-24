@@ -1,0 +1,25 @@
+title: Triktron
+description: Jekyll Theme Minimal Resume
+username: Triktron
+user_description: >-
+  I\'m a nomad Software Engineer, always searching for the next challenge; no
+  task is too scary nor too difficult. Lately I have been immersed in the
+  <b>crypto-world</b> working for Radix, a London based startup trying to create
+  the next massive scalable DLT. I'm one of the two guys behind all the JS
+  related stuff.
+user_title: Student Indie Developer
+email: luca.vanesche@gmail.com
+exclude:
+  - package.json
+  - src
+  - node_modules
+  - old
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - package-lock.json
+baseurl: ''
+url: ''
+sass:
+  sass_dir: _sass

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/card.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | prepend: site.baseurl }}">
+
+    <style media="screen">
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      line-height: 1.6;
+      background: #13181c;
+
+      font-family: 'Antic Slab', serif;
+    }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="flex-container">
+      {% for card in site.cards %}
+        {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img description=card.description%}
+      {% endfor %}
+  </div>
+  </body>
+</html>
