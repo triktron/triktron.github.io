@@ -5,6 +5,6 @@ wide: false
 buttons:
   - text: "Open on Sketchfab"
     href: "https://skfb.ly/6Rxzq"
-img: "assets/img/cards/axe/front.PNG"
+img: "assets/img/cards/axe/front.png"
 description: "Stylized Axe inspired by World of Warcraft"
 ---

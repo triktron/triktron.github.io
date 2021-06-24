@@ -7,6 +7,6 @@ buttons:
     href: "https://triktron.com/IsabellasMelody"
   - text: "Trailer"
     href: "https://youtu.be/OEYwRp-n93c"
-img: "assets/img/cards/isabellasmelody/menu.PNG"
+img: "assets/img/cards/isabellasmelody/menu.png"
 description: ""
 ---
