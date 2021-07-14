@@ -6,7 +6,7 @@
 
       <div id="cards" class="flex-container">
         {% for card in site.cards %}
-          {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img description=card.description%}
+          {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
         {% endfor %}
       </div>
 

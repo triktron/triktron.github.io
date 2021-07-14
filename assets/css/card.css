@@ -14,6 +14,16 @@
 	background: #13181c;
 }
 
+.card video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
 .card-w2 {
 	width: calc(72ch + 2ch) !important;
 }
@@ -29,6 +39,7 @@
 	border-radius: 0.5rem;
 	overflow: hidden;
 	margin: 2ch;
+  position: relative;
 }
 
 .card:hover {
@@ -37,6 +48,7 @@
 
 .card-body {
 	padding: 1.5rem;
+  position: relative;
 	background: linear-gradient( rgb(0 0 0 / 0), rgb(0 0 0 / 0.25) 15%, rgb(0 0 0 / 1));
 }
 
@@ -50,7 +62,7 @@
 @media (hover: hover),
 (prefers-reduced-motion: no-preference) {
 	.card-body {
-		transform: translateY(37ch);
+		transform: translateY(calc(37ch + 1.5rem));
 		transition: transform 500ms ease;
 	}
 	.card:hover .card-body {
@@ -79,6 +91,10 @@
 	.card:hover .card-title::after {
 		transition: transform 500ms ease;
 		transform: scaleX(1);
+	}
+
+  .card:hover video {
+		opacity: 1;
 	}
 }
 

@@ -12,6 +12,3 @@ _site/
 .bundle
 .bundle/
 vendor/
-
-*.mp4
-*.mkv
