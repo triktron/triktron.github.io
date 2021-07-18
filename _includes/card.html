@@ -1,11 +1,11 @@
 <div class="card{% if include.wide %} card-w2{% endif %}" style="background-image: url({{ include.img }});">
-  {% if include.video %}<video muted loop playsinline preload="none"><source src="{{ include.video }}" type="video/mp4"></video>{% endif %}
+  {%- if include.video -%}<video muted loop playsinline preload="none"><source src="{{ include.video }}" type="video/mp4"></video>{%- endif %}
   <div class="card-body">
     {% if include.title %}<h2 class="card-title">{{ include.title }}</h2>{% endif %}
     {% if include.subtitle %}<h5 class="card-subtitle">{{ include.subtitle }}</h5>{% endif %}
     {% if include.description %}<p>{{ include.description }}</p>{% endif %}
-    {% for button in include.buttons %}
+    {% for button in include.buttons -%}
       <a href="{{ button.href }}" class="card-button">{{ button.text }}</a>
-    {% endfor %}
+    {%- endfor %}
   </div>
 </div>
