@@ -1,0 +1,23 @@
+.header-title {
+    width: 50vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .line {
+        width: 260px;
+        height: 8px;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .header-text {
+        color: white;
+        padding: 20px;
+        font-size: 65px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        white-space: pre;
+    }
+}

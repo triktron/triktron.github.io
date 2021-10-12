@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include head.html -%}
+  <body style="overflow:hidden;">
+
+    <div id="particles-js"></div>
+      {%- include nav.html active="about" -%}
+
+      <div class="about-content">
+        <img src="/assets/img/about/standing.png" class="standing">
+
+        {%- include header.html title="About Me" -%}
+
+        <div class="about-data">
+          <div class="motivation">
+
+          </div>
+
+          <div class="lists">
+            <div class="programs">
+
+            </div>
+            <div class="abilities">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{- content -}}
+
+      {%- include footer.html -%}
+  </body>
+</html>

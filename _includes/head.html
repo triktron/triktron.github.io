@@ -1,7 +1,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#171e27">
+  <meta name="format-detection" content="telephone=no">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+   <meta name="apple-mobile-web-app-title" content="Portfolio Luca Vanesche">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -9,6 +14,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/assets/css/card.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/css/about.css' | prepend: site.baseurl }}">
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
 
   {%- include Analytics.html -%}

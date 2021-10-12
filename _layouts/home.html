@@ -2,16 +2,33 @@
 <html lang="en">
   {%- include head.html -%}
   <body>
+    <div id="particles-js"></div>
       {%- include info.html -%}
 
       <div id="cards" class="flex-container">
-        {% for card in site.cards -%}
-          {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
-        {%- endfor %}
+        {%- include header.html title="Main Projects" -%}
+
+        <div class="cards-container">
+          {% for card in site.cards -%}
+            {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
+          {%- endfor %}
+        </div>
+
+        {%- include header.html title="Other Projects" -%}
+
+        <div class="cards-container">
+          {% for card in site.cards -%}
+            {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
+          {%- endfor %}
+        </div>
+
       </div>
 
       {{- content -}}
 
+      <script src="{{ '/assets/js/sweet-scroll.min.js' | prepend: site.baseurl }}"></script>
+      <script src="{{ '/assets/js/cards.js' | prepend: site.baseurl }}" charset="utf-8"></script>
+      <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}" charset="utf-8"></script>
       {%- include footer.html -%}
   </body>
 </html>
