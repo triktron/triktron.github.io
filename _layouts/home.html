@@ -9,7 +9,7 @@
         {%- include header.html title="Main Projects" -%}
 
         <div class="cards-container">
-          {% for card in site.cards -%}
+          {% for card in site.cardsmain -%}
             {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
           {%- endfor %}
         </div>
