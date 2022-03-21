@@ -5,7 +5,7 @@ wide: true
 buttons:
   - text: "View on Sketchfab"
     href: "https://skfb.ly/6XsMS"
-img: "assets/img/cards/cityscene/Cityscene_front.png"
-video: "assets/img/cards/cityscene/citysceneturntable.mp4"
+img: "cityscene"
+video: "city"
 description: "My small version of kyoto japan."
 ---

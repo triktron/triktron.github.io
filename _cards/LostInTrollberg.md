@@ -7,7 +7,7 @@ buttons:
     href: "https://www.artstation.com/artwork/Xn2RXa"
   - text: "Download Demo"
     href: "https://triktron.itch.io/lost-in-trollberg"
-img: "assets/img/cards/LostInTrollberg/lost.png"
-video: "assets/img/cards/LostInTrollberg/lost.mp4"
+img: "lost"
+video: "lost"
 description: ""
 ---

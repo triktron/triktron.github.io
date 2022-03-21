@@ -1,5 +1,5 @@
-<div class="card{% if include.wide %} card-w2{% endif %}" style="background-image: url({{ include.img }});">
-  {%- if include.video -%}<video muted loop playsinline preload="metadata"><source src="{{ include.video }}" type="video/mp4"></video>{%- endif %}
+<div class="card{% if include.wide %} card-w2{% endif %}" style="background-image: url(/assets/img/{{ include.img }}_{% if include.wide %}wide{% else %}small{% endif %}.webp);">
+  {%- if include.video -%}<video muted loop playsinline preload="metadata"><source src="/assets/vid/{{ include.video }}.mp4" type="video/mp4"></video>{%- endif %}
   <div class="card-body">
     {% if include.title %}<h2 class="card-title">{{ include.title }}</h2>{% endif %}
     {% if include.subtitle %}<h5 class="card-subtitle">{{ include.subtitle }}</h5>{% endif %}

@@ -7,6 +7,6 @@ buttons:
     href: "https://github.com/triktron/Hexen"
   - text: "Play Online"
     href: "https://triktron.com/Hexen"
-img: "assets/img/cards/hexen/hexen.png"
+img: "hexen"
 description: ""
 ---

@@ -5,6 +5,6 @@ wide: false
 buttons:
   - text: "Open"
     href: "https://triktron.com/SpotifyVisualizer/"
-img: "assets/img/cards/SpotifyVisualizer/SpotifyVisualizer.PNG"
+img: "spotify"
 description: ""
 ---

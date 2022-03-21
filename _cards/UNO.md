@@ -7,6 +7,6 @@ buttons:
     href: "https://triktron.com/UNO/"
   - text: "View Source"
     href: "https://github.com/triktron/UNO"
-img: "assets/img/cards/uno.png"
+img: "uno"
 description: ""
 ---

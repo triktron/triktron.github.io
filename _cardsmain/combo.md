@@ -5,7 +5,7 @@ wide: false
 buttons:
 - text: "View Source Code"
   href: "https://github.com/triktron/Combo-System"
-img: "assets/img/cards/combo/combo.png"
-video: "assets/img/cards/combo/combo.mp4"
+img: "combo"
+video: "combo"
 description: ""
 ---

@@ -5,7 +5,7 @@ wide: false
 buttons:
 - text: "View Source Code"
   href: "https://github.com/triktron/Dungeon-Generator"
-img: "assets/img/cards/dungeon/dungeon.png"
-video: "assets/img/cards/dungeon/dungeon.mp4"
+img: "dungeon"
+video: "dungeon"
 description: ""
 ---
