@@ -1,7 +1,7 @@
 ---
 title: "Isabellas Melody"
 subtitle: "Applied Games"
-wide: true
+wide: false
 buttons:
   - text: "Play Online"
     href: "https://triktron.com/IsabellasMelody"
