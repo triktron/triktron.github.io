@@ -16,6 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+	max-width: calc(60ch * 4);
 }
 
 .card video {
@@ -114,6 +115,7 @@
 	background: var(--clr-card-underline);
 	padding: 0.5em 1.25em;
 	border-radius: 0.25rem;
+	margin-right: 10px;
 }
 
 .card-button:hover {

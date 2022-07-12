@@ -9,4 +9,5 @@ buttons:
     href: "https://github.com/triktron/Road-Rage/releases/download/v1.0/Road.Rage.zip"
 img: "roadrage"
 description: ""
+priority: 8
 ---

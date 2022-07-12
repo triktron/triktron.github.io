@@ -1,10 +1,11 @@
 img.icon {
-    max-width: 35vh;
-    border-radius: 50%;
+  max-width: min(35vh, 80vw);;
+  border-radius: 50%;
 }
 
-.fa-cubes::before, .fa-address-card-o::before {
-    margin: -3px;
+.fa-cubes::before,
+.fa-address-card-o::before {
+  margin: -3px;
 }
 
 .info-page {
@@ -19,7 +20,6 @@ img.icon {
   }
 }
 
-
 #particles-js {
   position: fixed;
   left: 0;
@@ -33,42 +33,92 @@ img.icon {
   }
 }
 
-
 .header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   z-index: 1;
   text-align: center;
-  color:#FFF;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  .site-title {
-    font-size: 50px;
-    display: block;
-    line-height: 1;
-    color: #FFF;
-    @media only screen and (min-width:$cut){
-      margin: 0;
-      font-size: 76px;
-    }
-  }
-  .site-description {
-    font-size: 20px;
-    display: block;
-    line-height: 1;
-    color: #FFF;
-    margin-top: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 34px;
-    }
-  }
-}
 
-.site-email {
-    padding-bottom: 7px;
+  .site-title {
+    font-size: 76px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+  }
+
+  .site-description {
+    font-size: 34px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .site-email {
+    display: block;
+    line-height: 1;
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .site-number {
+    font-size: 32px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .site-title {
+      font-size: 50px;
+    }
+
+    .site-description {
+      font-size: 23px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .site-title {
+      font-size: 35px;
+    }
+
+    .site-description {
+      font-size: 15px;
+    }
+
+    .site-email {
+      font-size: 20px;
+    }
+
+    .site-number {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .site-title {
+      font-size: 25px;
+    }
+
+    .site-description {
+      font-size: 10px;
+    }
+
+    .site-email {
+      font-size: 15px;
+    }
+
+    .site-number {
+      font-size: 15px;
+    }
+  }
 }
 
 .header-icons {
@@ -89,24 +139,24 @@ img.icon {
   }
   .icon {
     text-align: center;
-    color: #FFF;
+    color: #fff;
     width: 20px;
     height: 20px;
     font-size: 20px;
     padding: 10px;
     margin: 5px;
     border-radius: 50%;
-    border: 2px solid #FFF;
-    transition: all .5s;
+    border: 2px solid #fff;
+    transition: all 0.5s;
     &:hover {
       color: $main;
-      background: #FFF;
+      background: #fff;
     }
     &:active {
       color: $main;
-      background: #FFF;
+      background: #fff;
     }
-    @media only screen and (min-width:$cut) {
+    @media only screen and (min-width: $cut) {
       width: 30px;
       height: 30px;
       font-size: 30px;
@@ -116,7 +166,7 @@ img.icon {
 }
 
 .down {
-  color: #FFF;
+  color: #fff;
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -126,7 +176,7 @@ img.icon {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
   .projects {
@@ -134,13 +184,13 @@ img.icon {
   }
 
   .icon {
-      -webkit-animation: pulse 1.3s infinite;
-      animation: pulse 1.3s infinite;
-      &:hover {
-        color: $sec;
-      }
-      &:active {
-        color: $sec;
-      }
+    -webkit-animation: pulse 1.3s infinite;
+    animation: pulse 1.3s infinite;
+    &:hover {
+      color: $sec;
+    }
+    &:active {
+      color: $sec;
+    }
   }
 }

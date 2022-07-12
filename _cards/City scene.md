@@ -8,4 +8,5 @@ buttons:
 img: "cityscene"
 video: "city"
 description: "My small version of kyoto japan."
+priority: 10
 ---

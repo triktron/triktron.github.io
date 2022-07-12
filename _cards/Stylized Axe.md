@@ -8,4 +8,5 @@ buttons:
 img: "axe"
 video: "axe"
 description: "Stylized Axe inspired by World of Warcraft"
+priority: 8
 ---

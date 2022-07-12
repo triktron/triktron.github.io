@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: 500px) {
+        width: 90vw;
+      }
+
     .line {
         width: 260px;
         height: 8px;
@@ -19,5 +23,9 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         white-space: pre;
+
+        @media only screen and (max-width: 1200px) {
+            font-size: 30px;
+          }
     }
 }

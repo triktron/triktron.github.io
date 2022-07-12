@@ -29,7 +29,8 @@
 
 
     <div class="flex-container">
-      {% for card in site.cards %}
+      {% assign cards = site.cards | sort: "priority" %}
+      {% for card in cards %}
         {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
       {% endfor %}
   </div>

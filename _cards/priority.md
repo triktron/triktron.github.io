@@ -8,4 +8,5 @@ buttons:
 img: "priority"
 video: "priority"
 description: ""
+priority: 10
 ---

@@ -9,4 +9,5 @@ buttons:
   href: "https://github.com/triktron/SpotifyMiniplayer/releases/download/V1.0/SpotifyMiniplayer.exe"
 img: "spotifymini"
 description: "A mini control panel for Spotify"
+priority: 3
 ---

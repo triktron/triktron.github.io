@@ -8,4 +8,5 @@ buttons:
 img: "escapingdeath"
 video: "death"
 description: "So, you recently died heh? You were so close to getting into heaven, but you must do one more thingbefore you get it. El Beelzebub’s minions are guarding the gates. Can you sneak past and find yourway?."
+priority: 8
 ---

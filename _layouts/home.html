@@ -9,7 +9,8 @@
         {%- include header.html title="Main Projects" -%}
 
         <div class="cards-container">
-          {% for card in site.cardsmain -%}
+          {% assign cards_main = site.cardsmain | sort: "priority" | reverse %}
+          {% for card in cards_main %}
             {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
           {%- endfor %}
         </div>
@@ -17,7 +18,8 @@
         {%- include header.html title="Other Projects" -%}
 
         <div class="cards-container">
-          {% for card in site.cards -%}
+          {% assign cards = site.cards | sort: "priority" | reverse %}
+          {% for card in cards %}
             {% include card.html title=card.title subtitle=card.subtitle wide=card.wide buttons=card.buttons img=card.img video=card.video description=card.description%}
           {%- endfor %}
         </div>

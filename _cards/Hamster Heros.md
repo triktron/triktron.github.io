@@ -9,4 +9,5 @@ buttons:
     href: "http://triktron.com/Hamser-Heros/"
 img: "hamsterheros"
 description: ""
+priority: 8
 ---
