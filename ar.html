@@ -8,9 +8,9 @@
 </head>
 <body>
 <input type="text" value="testgroup" id="url">
-<input type="submit">
+<input type="submit" id="openapp">
 <script>
-    document.querySelector('#url').addEventListener('click', function () {
+    document.querySelector('#openapp').addEventListener('click', function () {
         const url = document.getElementById('url').value;
         window.open('spectr://ar?' + url);
     });
