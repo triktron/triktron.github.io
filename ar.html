@@ -1,0 +1,19 @@
+<html>
+<head>
+    <style>
+        body {
+            background-color: #171717;
+        }
+    </style>
+</head>
+<body>
+<input type="text" value="testgroup" id="url">
+<input type="submit">
+<script>
+    document.querySelector('#url').addEventListener('click', function () {
+        const url = document.getElementById('url').value;
+        window.open('spectr://ar?' + url);
+    });
+</script>
+</body>
+</html>
