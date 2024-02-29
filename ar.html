@@ -8,11 +8,17 @@
 </head>
 <body>
 <input type="text" value="mAdAKSjNcTBoQSA9No0QLBQaixWnwrQ2IEkHzw3WUScIvZxl7WcPsho3bFdz" id="url">
-<input type="submit" id="openapp">
+<input type="submit" id="openapp" value="old open">
+<input type="submit" id="openapp2" value="new open">
 <script>
     document.querySelector('#openapp').addEventListener('click', function () {
         const url = document.getElementById('url').value;
         window.open('spectr://ar?' + url);
+    });
+
+    document.querySelector('#openapp2').addEventListener('click', function () {
+        const url = document.getElementById('url').value;
+        window.open('https://triktron.com/ar_open?' + url);
     });
 </script>
 </body>
