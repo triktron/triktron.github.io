@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.spectr.ar",
+      "sha256_cert_fingerprints":
+      ["4B:B1:91:D1:DF:5F:15:A9:56:26:49:0B:42:90:BC:F0:25:3E:8C:54:56:1E:E3:C3:7F:BA:58:0C:15:32:C7:0C"]
+    }
+  }]
