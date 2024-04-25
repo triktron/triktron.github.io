@@ -12,7 +12,9 @@
 <input type="text" value="" id="ip">
 <input type="submit" id="openapp" value="spectr://ar">
 <input type="submit" id="openapp2" value="triktron.com">
-<input type="submit" id="openapp3" value="clouddev.spectrbim.com">
+<input type="submit" id="openapp3" value="spectr-webapidev.azurewebsites.net/ar">
+<input type="submit" id="openapp4" value="spectr-webapidev.azurewebsites.net/test">
+<input type="submit" id="openapp5" value="spectr-webapi.azurewebsites.net/ar">
 <script>
     document.querySelector('#openapp').addEventListener('click', function () {
         let url = 'spectr://ar?token=' + encodeURIComponent(token);
@@ -37,7 +39,29 @@
         var api = document.getElementById('api').value;
         var ip = document.getElementById('ip').value;
 
-        let url = 'https://clouddev.spectrbim.com/ar?token=' + encodeURIComponent(token);
+        let url = 'https://spectr-webapidev.azurewebsites.net/ar?token=' + encodeURIComponent(token);
+        if (api != "") url += '&apiUrl=' + encodeURIComponent(api);
+        if (ip != "") url += '&targetIp=' + encodeURIComponent(ip);
+        window.open(url);
+    });
+
+    document.querySelector('#openapp4').addEventListener('click', function () {
+        var token = document.getElementById('token').value;
+        var api = document.getElementById('api').value;
+        var ip = document.getElementById('ip').value;
+
+        let url = 'https://spectr-webapidev.azurewebsites.net/test?token=' + encodeURIComponent(token);
+        if (api != "") url += '&apiUrl=' + encodeURIComponent(api);
+        if (ip != "") url += '&targetIp=' + encodeURIComponent(ip);
+        window.open(url);
+    });
+
+    document.querySelector('#openapp5').addEventListener('click', function () {
+        var token = document.getElementById('token').value;
+        var api = document.getElementById('api').value;
+        var ip = document.getElementById('ip').value;
+
+        let url = 'https://spectr-webapi.azurewebsites.net/ar?token=' + encodeURIComponent(token);
         if (api != "") url += '&apiUrl=' + encodeURIComponent(api);
         if (ip != "") url += '&targetIp=' + encodeURIComponent(ip);
         window.open(url);
